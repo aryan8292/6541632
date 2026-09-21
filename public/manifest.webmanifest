@@ -1,0 +1,11 @@
+{
+  "name": "PriceTracker Pro",
+  "short_name": "PTP",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F5F6F8",
+  "theme_color": "#C21876",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

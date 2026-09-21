@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>PriceTracker Pro</title>
+<meta name="theme-color" content="#C21876">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/src/styles/tokens.css">
+<link rel="stylesheet" href="/src/styles/base.css">
+<link rel="stylesheet" href="/src/styles/components.css">
+</head>
+<body>
+<div id="app">
+  <div id="header">
+    <div id="hdr-icon">
+      <svg viewBox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+    </div>
+    <div id="hdr-text"><div id="hdr-name">PriceTracker Pro</div><div id="hdr-sub">Order Automation</div></div>
+    <div id="hdr-chip" class="hide"></div>
+  </div>
+  <div id="pages">
+    <div class="page active" id="pg-account"></div>
+    <div class="page" id="pg-address"></div>
+    <div class="page" id="pg-search"></div>
+    <div class="page" id="pg-cart"></div>
+    <div class="page" id="pg-orders"></div>
+    <div class="page" id="pg-order-detail"></div>
+  </div>
+  <nav id="nav"></nav>
+</div>
+<div id="loader"><div class="spin"></div></div>
+<div id="toast"><div class="t-ic"></div><div class="t-msg"></div><div class="t-bar"></div></div>
+<div class="mask" id="mask"></div>
+<div class="sheet" id="sheet"><div class="sheet-grip"></div><div id="sheet-body"></div></div>
+<div id="cmask"><div class="cdlg" id="cdlg"></div></div>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
